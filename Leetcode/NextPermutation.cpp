@@ -31,13 +31,13 @@ int main(){
     int n;
     cout<<"enter the value of n :";
     cin>>n;
-     vector<int> nums;
+     vector<int> nums(n);
      for(int i=0;i<n;i++){
        cin>>nums[i];
      }
      //to print the next purmutation we are using a fucition of c++;
      next_permutation(nums.begin() , nums.end());
-     for(long long i:nums){
+     for(int i:nums){
         cout<<i<<endl;
      }
 

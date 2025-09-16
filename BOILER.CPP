@@ -1,3 +1,12 @@
+// to add the files in github
+
+git add .
+
+git add subsets.cpp
+
+git commit -m "Optimized subset generation using bitmasking"
+
+git push
 
 
 
@@ -31,6 +40,5 @@ int main(){
 
     return 0;
 }
-
 
 
