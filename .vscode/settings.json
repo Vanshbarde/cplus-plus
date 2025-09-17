@@ -2,7 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "vector": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "map": "cpp",
+        "cmath": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "python-envs.defaultEnvManager": "ms-python.python:system",
